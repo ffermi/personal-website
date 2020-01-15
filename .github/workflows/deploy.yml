@@ -21,5 +21,5 @@ jobs:
           HUGO_VERSION: 0.62.2
           TARGET_REPO: ffermi/ffermi.github.io
           TOKEN: ${{ secrets.TOKEN }}
-          HUGO_ARGS: "-t hermit"
+          HUGO_ARGS: "-D"
           CNAME: ffermi.github.io
