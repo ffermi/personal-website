@@ -11,6 +11,9 @@ jobs:
     steps:
       - name: Checkout master
         uses: actions/checkout@v1
+        with:
+          token: ${{ secrets.TOKEN }}
+          submodules: true
 
       - name: Deploy website
         uses: benmatselby/hugo-deploy-gh-pages@master
