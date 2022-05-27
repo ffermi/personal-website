@@ -22,4 +22,4 @@ jobs:
           TARGET_REPO: ffermi/ffermi.github.io
           TOKEN: ${{ secrets.TOKEN }}
           HUGO_ARGS: "-D"
-          CNAME: ffermi.github.io
+          CNAME: ffermi.it
